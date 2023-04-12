@@ -71,3 +71,7 @@ p {
   color: red;
   font-size: 15px;
 }
+
+main {
+  margin-bottom: 2em;
+}
