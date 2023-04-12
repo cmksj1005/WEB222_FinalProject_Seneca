@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="uft-8" />
+    <title>Joe's Game</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/style_review.css" type="text/css" />
+    <meta name="author" content="Shinjo Kang" />
+    <meta name="Keywords" content="Monopoly" />
+    <meta
+      name="description"
+      content="Monopoly is one of the most famous board game in the world. You can learn what the Monopoly is and how you can play it."
+    />
+  </head>
+  <body>
+    <header>
+      <div id="logoNname">
+        <a href="index.html">
+          <img src="image/logo.png" alt="Joe's game logo" width="100" />
+        </a>
+        <a href="index.html">
+          <h1>Joe's Game</h1>
+        </a>
+      </div>
+      <nav>
+        <a href="index.html">
+          <button>Main</button>
+        </a>
+        <a href="info.html">
+          <button>Information</button>
+        </a>
+        <a href="review.html">
+          <button>Review</button>
+        </a>
+        <a href="about.html">
+          <button>About</button>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <h2>Review</h2>
+      <!--review cards-->
+      <div id="cards"></div>
+      <hr />
+      <!--review input-->
+      <h2>Leave your comment</h2>
+      <div id="review_outline">
+        <div id="review_border">
+          <form id="review_input">
+            <!--name input-->
+            <label for="review_name">Name<span class="danger">*</span></label>
+            <input
+              id="review_name"
+              type="text"
+              name="name"
+              required
+              autofocus 
+              tabindex="1"
+            />
+            <!--hidden date-->
+            <input id="review_date" type="hidden" name="date" />
+            <!--rate input-->
+            <label for="review_rate">Rate</label>
+            <select name="rate" id="review_rate" tabindex="2">
+              <option value="1">★☆☆☆☆</option>
+              <option value="2">★★☆☆☆</option>
+              <option value="3">★★★☆☆</option>
+              <option value="4">★★★★☆</option>
+              <option selected value="5">★★★★★</option>
+            </select>
+            <!--review input-->
+            <label for="review_comment">Comment</label>
+            <textarea
+              name="review"
+              id="review_comment"
+              cols="30"
+              rows="10"
+              maxlength="400"
+              placeholder="Leave your comment here"
+              tabindex="3"
+            ></textarea>
+
+        </div>
+        <div id="review_submit_button">
+          <div></div>
+          <input
+            id="review_submit"
+            class="submit"
+            type="submit"
+            name="comment"
+            value="Create"
+            tabindex="4"
+          />
+        </form>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+    <script src="js/data.js"></script>
+  </body>
+</html>

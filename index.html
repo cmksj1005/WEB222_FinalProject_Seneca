@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="uft-8" />
+    <title>Joe's Game</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!--Google Font-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <meta name="author" content="Shinjo Kang" />
+    <meta name="Keywords" content="Monopoly" />
+    <meta
+      name="description"
+      content="Monopoly is one of the most famous board game in the world. You can learn what the Monopoly is and how you can play it."
+    />
+  </head>
+  <body>
+    <header>
+      <div id="logoNname">
+        <a href="index.html">
+          <img src="image/logo.png" alt="Joe's game logo" width="100" />
+        </a>
+        <a id="page_name" href="index.html">
+          <h1>Joe's Game</h1>
+        </a>
+      </div>
+      <nav>
+        <a href="index.html">
+          <button>Main</button>
+        </a>
+        <a href="info.html">
+          <button>Information</button>
+        </a>
+        <a href="review.html">
+          <button>Review</button>
+        </a>
+        <a href="about.html">
+          <button>About</button>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <h2>MONOPLY</h2>
+
+      <p align="justify">
+        This website is for introducing one of the best board games named
+        Monopoly. You can find the history, rules, and best tips of Monopoly in
+        this website. If you already enjoyed the game, you can also leave your
+        comment about this game so that other people can know how you feel. If
+        you have any question about Monopoly, website, or me, you can get in
+        touch with me with e-mail or phone. You can find the contact information
+        at the bottom of the main page. If you want further information about
+        the game, please enter your e-mail address at the bottom of the main
+        page. Then please enjoy this website.
+      </p>
+
+      <figure id="main_picture">
+        <picture>
+          <source srcset="image/monopoly.webp" type="image/webp" />
+          <img
+            src="image/monopoly.jpeg"
+            alt="monopoly board picture"
+            width="100%"
+          />
+          <figcaption>
+            Photo by
+            <a href="https://www.pexels.com/@suzyhazelwood/">Suzy Hazelwood</a>,
+            <a href="https://www.pexels.com/license/">Free to use</a>, via
+            <a
+              href="https://www.pexels.com/photo/close-up-photo-of-monopoly-board-game-1240581/"
+              >Pexels</a
+            >
+          </figcaption>
+        </picture>
+      </figure>
+
+      <p align="justify">
+        <a href="https://en.wikipedia.org/wiki/Monopoly_(game)">Monopoly</a>
+        is a multi-player economics-themed board game. In the game, players roll
+        two dice to move around the game board, buying and trading properties
+        and developing them with houses and hotels. Players collect rent from
+        their opponents and aim to drive them into bankruptcy.
+      </p>
+
+      <figure id="play_video">
+        <a href="https://www.youtube.com/watch?v=A4WDHUobhtQ">
+          <video width="100%" autoplay muted loop>
+            <source src="video/MonopolyPlayVideo.mkv" type="video/mkv" />
+            <source src="video/MonopolyPlayVideo.mp4" type="video/mp4" />
+          </video>
+        </a>
+        <figcaption>
+          <a href="https://www.youtube.com/watch?v=A4WDHUobhtQ"
+            >Board Games: SI Plays Monopoly w/ Short* Rules</a
+          >
+          <br />
+          by
+          <a href="https://www.youtube.com/@strategyinfinity2632"
+            >@Strategy Infinity</a
+          >
+        </figcaption>
+      </figure>
+    </main>
+    <footer>
+      <!--Footer - logo-->
+      <div class="footerletter">
+        <a href="index.html">
+          <img src="/image/logo_white.png" alt="Joe's game logo" width="100" />
+        </a>
+      </div>
+
+      <div id="footer_nav" class="footerletter">Navigation</div>
+
+      <div id="footer_contact" class="footerletter">Contact</div>
+
+      <div id="footer_newsletter" class="footerletter">
+        <label class="footerletter" for="user-email">Newsletter</label>
+      </div>
+
+      <div class="footerletter"><a href="html/info.html">Information</a></div>
+
+      <div class="footerletter">
+        <span class="material-symbols-outlined"> mail </span>
+        <p class="contact-info">skang79@myseneca.ca</p>
+      </div>
+
+      <!--email form in footer-->
+      <div id="footer_email">
+        <form action="https://httpbin.org/post" method="post">
+          <div id="footer_email_form">
+            <input
+              id="user-email"
+              name="email"
+              autocomplete="email"
+              type="email"
+              placeholder="Enter your e-mail"
+            />
+
+            <input class="submit" type="submit" name="submit" value="Join" />
+          </div>
+          <input type="hidden" value="Shinjo Kang" name="author" />
+        </form>
+      </div>
+
+      <div class="footerletter"><a href="html/review.html">Review</a></div>
+
+      <div class="footerletter">
+        <span class="material-symbols-outlined"> phone_iphone </span>
+        <p class="contact-info">647-123-1234</p>
+      </div>
+
+      <div class="footerletter"></div>
+
+      <div class="footerletter"><a href="html/about.html">About</a></div>
+
+      <div class="footerletter"></div>
+      <div class="footerletter"></div>
+    </footer>
+  </body>
+</html>
