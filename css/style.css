@@ -1,0 +1,166 @@
+/*
+    Google Web Fonts
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Sora', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Sora&display=swap");
+
+header {
+  font-family: "Fjalla One", Geneva, sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.3em solid #8977ad;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+
+#logoNname {
+  display: flex;
+  justify-content: center;
+  margin-left: 2em;
+}
+
+h1 {
+  font-family: "Fjalla One", Geneva, sans-serif;
+  margin-left: 0.5em;
+  color: #383838;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(184, 74, 218);
+  font-weight: bolder;
+}
+
+.submit,
+button {
+  height: 2em;
+  padding: 1em;
+  width: auto;
+  margin-left: 0.5em;
+  background-color: #8674aa;
+  color: white;
+  box-shadow: 2px 2px 2px rgb(53, 53, 53);
+  border: 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*Click motion*/
+.submit:active,
+button:active {
+  margin-top: 5px;
+  box-shadow: none;
+}
+
+/*Hovering motion*/
+.submit:hover,
+button:hover {
+  background-color: #e3c9df;
+  color: #200750;
+}
+
+body {
+  font-family: "Sora", Tahoma, sans-serif;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Fjalla One", Geneva, sans-serif;
+  color: #383838;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#play_video,
+#main_picture {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+main {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  margin-top: 2em;
+  height: 15em;
+  width: 100vw;
+  background-color: #1f192b;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.footerletter:first-child {
+  grid-column: 1 / 2;
+  grid-row: 1 / 6;
+}
+
+#footer_email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer_email_form {
+  display: flex;
+}
+
+.footerletter {
+  color: beige;
+  margin-right: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerletter a {
+  color: beige;
+}
+
+.footerletter a:hover {
+  color: rgb(96, 120, 255);
+}
+
+.contact-info {
+  margin-left: 0.3em;
+}
+
+#footer_nav,
+#footer_contact,
+#footer_newsletter {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+hr {
+  width: 100%;
+  height: 0.2em;
+  background-color: #8977ad;
+  margin: 0;
+}
+
+#bestTip_video {
+  margin-bottom: 2em;
+}

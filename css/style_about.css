@@ -1,0 +1,42 @@
+#author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+ul {
+  list-style-type: none;
+  border: 0.2em solid #8977ad;
+  padding: 0.5em;
+  width: 380px;
+  border-radius: 8px;
+}
+
+li {
+  display: flex;
+}
+
+.author_title {
+  font-weight: bolder;
+  margin-right: 0.5em;
+  font-size: medium;
+}
+
+table {
+  border: 0.15em solid #8977ad;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+}
+
+th {
+  border: 0.15em solid #8977ad;
+  background-color: #f2e9fc;
+  min-width: 10em;
+}
+
+td {
+  border: 0.15em solid #8977ad;
+  text-align: center;
+  vertical-align: middle;
+}

@@ -1,0 +1,72 @@
+.card {
+  background-color: rgb(242, 232, 245);
+  border: 0.2em solid #8977ad;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 0.2em;
+}
+
+h3 {
+  font-size: medium;
+  font-weight: bolder;
+  margin: 0;
+  margin-right: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: medium;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_detail {
+  display: flex;
+}
+
+#review_outline {
+  width: 100%;
+}
+
+#review_border {
+  border: 0.2em solid #8977ad;
+  border-radius: 8px;
+  padding: 0.5em;
+}
+
+#review_input {
+  display: flex;
+  flex-direction: column;
+}
+
+#review_name {
+  width: 150px;
+  padding: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+#review_rate {
+  width: 158px;
+  height: 28.5px;
+  padding: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+#review_comment {
+  height: 10em;
+}
+
+#review_submit_button {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.danger {
+  color: red;
+  font-size: 15px;
+}
