@@ -95,6 +95,7 @@ figure {
   width: 100%;
 }
 
+/*Max-size*/
 main {
   max-width: 1000px;
   display: flex;
@@ -102,6 +103,7 @@ main {
   align-items: center;
 }
 
+/*Used grid for footer*/
 footer {
   margin-top: 2em;
   height: 15em;
@@ -112,6 +114,7 @@ footer {
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+/*Space for Logo in footer*/
 .footerletter:first-child {
   grid-column: 1 / 2;
   grid-row: 1 / 6;
@@ -139,6 +142,7 @@ footer {
   color: beige;
 }
 
+/*Nav in footer hovering motion*/
 .footerletter a:hover {
   color: rgb(96, 120, 255);
 }
