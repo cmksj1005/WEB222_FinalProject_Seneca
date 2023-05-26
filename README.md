@@ -1,1 +1,1 @@
-# WEB222_Seneca
+# WEB222_FinalProject_Seneca
